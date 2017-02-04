@@ -1,0 +1,92 @@
+<form autocomplete="off">
+  <div class="form-group app-tool-tip">
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" />
+    <i class="zmdi zmdi-account zmdi-hc-1x"></i>
+    <label for="exampleInputEmail1">Email address</label>
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+  <div class="form-group app-tool-tip">  
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" autocomplete="new-password" />
+    <i class="zmdi zmdi-key zmdi-hc-1x"></i>
+    <label for="exampleInputPassword1">Password</label>
+  </div>
+  <div class="form-group app-tool-tip">  
+    <input type="text" class="form-control" id="test" placeholder="Test" value="Yummy!" />
+    <i class="zmdi zmdi-mood zmdi-hc-1x"></i>
+    <label for="test">Test</label>
+  </div>
+</form>
+<div class="form-group">
+  <label for="exampleSelect1">Example select</label>
+  <select class="form-control" id="exampleSelect1">
+    <option>1</option>
+    <option>2</option>
+    <option>3</option>
+    <option>4</option>
+    <option>5</option>
+  </select>
+</div>
+<div class="form-group">
+  <label for="exampleSelect2">Example multiple select</label>
+  <select multiple class="form-control" id="exampleSelect2">
+    <option>1</option>
+    <option>2</option>
+    <option>3</option>
+    <option>4</option>
+  </select>
+</div>
+<div class="form-group">
+  <label for="exampleTextarea">Example textarea</label>
+  <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+</div>
+<div class="form-group">
+  <label for="exampleInputFile">File input</label>
+  <input type="file" class="form-control-file" id="exampleInputFile" aria-describedby="fileHelp" />
+  <small id="fileHelp" class="form-text text-muted">This is some placeholder block-level help text for the above input. It's a bit lighter and easily wraps to a new line.</small>
+</div>
+<fieldset class="form-group">
+  <legend>Radio buttons</legend>
+  <div>
+    <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="checked" />
+    <label for="optionsRadios1">
+      Option one is this and that&mdash;be sure to include why it's great
+    </label>
+  </div>
+  <div>
+    <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2" />
+    <label for="optionsRadios2">
+      Option two can be something else and selecting it will deselect option one
+    </label>
+  </div>
+  <div class="disabled">
+    <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3" disabled />
+    <label for="optionsRadios3">
+      Option three is disabled
+    </label>
+  </div>
+</fieldset>
+<legend>Checkboxes</legend>
+<div>
+  <input type="checkbox" id="checkbox-foo1" checked="checked" />
+  <label for="checkbox-foo1">
+    Check me out - Checked
+  </label>
+</div>
+<div>
+  <input type="checkbox" id="checkbox-foo2" />
+  <label for="checkbox-foo2">
+    Check me out - Not Checked
+  </label>
+</div>
+<div class="form-group has-danger">
+  <label class="form-control-label" for="inputDanger1">Input with danger</label>
+  <input type="text" class="form-control form-control-danger" id="inputDanger1" />
+  <div class="form-control-feedback">Sorry, that username's taken. Try another?</div>
+  <small class="form-text text-muted">Example help text that remains unchanged.</small>
+</div>
+<label class="custom-file">
+  <input type="file" id="file" class="custom-file-input" />
+  <span class="custom-file-control"></span>
+</label>
+<br />
+<button type="submit" class="btn btn-primary">Submit</button>

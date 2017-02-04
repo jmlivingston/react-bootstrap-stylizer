@@ -1,3 +1,8 @@
-@import "../../original/_bootstrap.scss";
 @import "./_variables.scss";
+@import "../../original/_bootstrap.scss";
 @import "./_bootswatch.scss";
+
+.navbar {
+    @extend .navbar-inverse;
+    @extend .bg-primary;
+}

@@ -18,18 +18,22 @@ export default class Theme {
         return this.themes;
     }
 
-    initTheme() {        
+    initTheme() {    
+        // TODO: Remove ugly hack for hiding root. This is used as page flashes some unformed content.
+        document.getElementById('root').style.display = 'none';        
         var theme = ''
         if (localStorage.theme) {
             theme = localStorage.theme;
         } else {
-            var randomThemeIndex = Math.floor(Math.random() * (this.themes.length - 1 + 1)) + 1;
+            var randomThemeIndex = Math.floor(Math.random() * (this.themes.length - 1 + 1));
             theme = this.themes[randomThemeIndex].path;
             localStorage.theme = theme;
         }
-        // TODO: Figure out a better way to avoid "Critical Dependencies" error in console.
-        require('./core.scss');
-        require(theme);
+        require(`${'./core.scss'}`);
+        require(`${theme}`);
+        setTimeout(function() {
+           document.getElementById('root').style.display = 'block';
+        }, 250);
     }
 
     setTheme(theme) {

@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.scss';
-import { browserHistory } from 'react-router';
+import './index.css';
+import { hashHistory } from 'react-router';
 import Routes from './routes';
 
 import "../node_modules/tether/dist/css/tether.min.css";
@@ -11,27 +12,21 @@ import '../node_modules/jquery/dist/jquery.slim.min.js';
 import '../node_modules/tether/dist/js/tether.min.js';
 import '../node_modules/bootstrap/dist/js/bootstrap.min.js';
 
-// import Drawer from './core/drawer/drawer';
 import Footer from './core/footer/footer';
 import Header from './core/header/header';
 
-import Theme from './core/style/theme';
-
 ReactDOM.render(
   <div>
-    {/* <Drawer /> */}
     <main id="panel">
       <Header />
       <div className="main">
-        <Routes history={browserHistory} />
+        <Routes history={hashHistory} />
       </div>
       <Footer />
     </main>
   </div>,
   document.getElementById('root')
 );
-
-new Theme();
 
 function testInput(input) {
   let className = 'input-has-value';

@@ -30,8 +30,6 @@ import StyleGuideProgress from './progress/progress.js';
 import StyleGuideTag from './tag/tag.js';
 import StyleGuideTooltips from './tooltips/tooltips.js';
 
-// import "../core/style/themes/bootswatch/lux/core.scss";
-
 require('./style-guide.scss');
 
 export default class StyleGuide extends Component {
@@ -58,7 +56,7 @@ export default class StyleGuide extends Component {
                             <button className="btn btn-secondary float-right" onClick={this.expandCollapse}>Expand / Collapse</button>
                         </div>
                     </div>
-                    <input type="text" className="form-control" placeholder="Search..." value={this.state.value} onChange={this.handleChange} />
+                    {/*<input type="text" className="form-control" placeholder="Search..." value={this.state.value} onChange={this.handleChange} />*/}
                     <hr />
                 </div>
                 <div>

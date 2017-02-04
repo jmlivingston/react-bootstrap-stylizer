@@ -2,6 +2,68 @@
 
 ## Stylize your React project with Bootsrap SASS like a boss!
 
+## BUILD
+
+- Open the Style Guide to see primary Bootstrap components.
+- Pick a theme from the dropdown menu. Bootswatch themes use the SASS files provided by Bootswatch. Many of these are great off the shelf, but they're also great starting points.
+- Review all components or click on a specific component to make tweaks specifically to that component.
+- Tweak the SASS in core/style directory. Typically you would start with the _variables.scss which are the default Bootstrap variables. For example: try changing the $body-bg variable to something different.
+- For more details on Bootstrap's customization options, see: Customization Options. This is not a comprehensive list of all the variables, but should get you started.
+
+## EXPORT
+
+- Copy files from the theme folder you are targeting. For example: core/style/themes/bootstwatch/lumen.
+- Copy the _bootstrap.scss from the original folder.
+- Install the latest Bootstrap package via npm into your package. Important: Make sure this is the same version as in the _bootstrap.scss.
+
+## OPTIMIZE
+
+- Bootstrap 4 is now minified to 152 KB, but you can further optimize it by commenting out components you don't need in _bootstrap.scss.
+
+## STYLE GUIDE
+
+The markup in the style guide is meant to be used by developers, UX, and clients alike. Developers can focus on ensuring code is modular, avoid code duplication, and use the code snippets to quickly scaffold pages. UX can use the page as an interactive style guide for review with the client.
+
+## THEMING
+
+For theming support, checkout the code in core/style/theme.js, app.js, and core/header/header.js.
+
+## AVAILABLE THEMES
+
+- Original
+- Custom - Dark
+- Custom - Material
+- Bootswatch
+  - Cerulean
+  - Cosmo
+  - Cyborg
+  - Darkly
+  - Flatly
+  - Journal
+  - Litera
+  - Lumen
+  - Lux
+  - Materia
+  - Minty
+  - Pulse
+  - Sandstone
+  - Simplex
+  - Slate
+  - Solar
+  - Spacelab
+  - Superhero
+  - United
+  - Yeti
+
+## CREDIT
+
+None of this would be possible without these awesome technologies and tools:
+
+- [React](https://facebook.github.io/react)
+- [create-react-app](https://github.com/facebookincubator/create-react-app)
+- [Bootstrap v4.0](https://v4-alpha.getbootstrap.com/)
+- [Bootswatch](https://bootswatch.com/4-alpha/)
+
 ## create-react-app Information Below
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).

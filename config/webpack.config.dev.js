@@ -207,9 +207,10 @@ module.exports = {
     // See https://github.com/facebookincubator/create-react-app/issues/186
     new WatchMissingNodeModulesPlugin(paths.appNodeModules),
     new webpack.ProvidePlugin({
-      $: 'jquery',
-      jQuery: 'jquery',
-      'window.jQuery': 'jquery'
+      $: "jquery",
+      jquery: "jquery",
+      "window.jQuery": "jquery",
+      jQuery:"jquery"
     }),
     new webpack.ProvidePlugin({
       "Tether": 'tether',

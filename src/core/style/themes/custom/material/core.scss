@@ -1,7 +1,13 @@
 @import "./_variables.scss";
 @import "../../original/_bootstrap.scss";
+
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 @import "../../../../../../node_modules/css-ripple-effect/dist/ripple.min";
+
+.navbar {
+    @extend .navbar-inverse;
+    @extend .bg-primary;
+}
 
 .btn:not(.btn-link) {
     @extend .ripple;

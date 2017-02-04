@@ -35,35 +35,35 @@ import NotFound from './core/not-found/not-found';
 
 const Routes = (props) => (
   <Router {...props}>
-    <Route path="/" component={App} />
-    <Route path="/style-guide" component={StyleGuide} />
-    <Route path="/style-guide/alerts" component={StyleGuideAlerts} />
-    <Route path="/style-guide/breadcrumb" component={StyleGuideBreadcrumb} />
-    <Route path="/style-guide/button-group" component={StyleGuideButtonGroup} />
-    <Route path="/style-guide/buttons" component={StyleGuideButtons} />
-    <Route path="/style-guide/card" component={StyleGuideCard} />
-    <Route path="/style-guide/carousel" component={StyleGuideCarousel} />
-    <Route path="/style-guide/code" component={StyleGuideCode} />
-    <Route path="/style-guide/collapse" component={StyleGuideCollapse} />
-    <Route path="/style-guide/content-figures" component={StyleGuideContentFigures} />
-    <Route path="/style-guide/content-images" component={StyleGuideContentImages} />
-    <Route path="/style-guide/content-tables" component={StyleGuideContentTables} />
-    <Route path="/style-guide/content-typography" component={StyleGuideContentTypography} />
-    <Route path="/style-guide/dropdowns" component={StyleGuideDropdowns} />
-    <Route path="/style-guide/forms" component={StyleGuideForms} />
-    <Route path="/style-guide/input-group" component={StyleGuideInputGroup} />
-    <Route path="/style-guide/jumbotron" component={StyleGuideJumbotron} />
-    <Route path="/style-guide/layout-grid" component={StyleGuideLayoutGrid} />
-    <Route path="/style-guide/layout-media-object" component={StyleGuideLayoutMediaObject} />
-    <Route path="/style-guide/list-group" component={StyleGuideListGroup} />
-    <Route path="/style-guide/modal" component={StyleGuideModal} />
-    <Route path="/style-guide/nav-bar" component={StyleGuideNavBar} />
-    <Route path="/style-guide/navs" component={StyleGuideNavs} />
-    <Route path="/style-guide/pagination" component={StyleGuidePagination} />
-    <Route path="/style-guide/popovers" component={StyleGuidePopovers} />
-    <Route path="/style-guide/progress" component={StyleGuideProgress} />
-    <Route path="/style-guide/tag" component={StyleGuideTag} />
-    <Route path="/style-guide/tooltips" component={StyleGuideTooltips} />
+    <Route path="/" component={App}></Route>
+    <Route path="style-guide" component={StyleGuide} />
+    <Route path="style-guide/alerts" component={StyleGuideAlerts} />
+    <Route path="style-guide/breadcrumb" component={StyleGuideBreadcrumb} />
+    <Route path="style-guide/button-group" component={StyleGuideButtonGroup} />
+    <Route path="style-guide/buttons" component={StyleGuideButtons} />
+    <Route path="style-guide/card" component={StyleGuideCard} />
+    <Route path="style-guide/carousel" component={StyleGuideCarousel} />
+    <Route path="style-guide/code" component={StyleGuideCode} />
+    <Route path="style-guide/collapse" component={StyleGuideCollapse} />
+    <Route path="style-guide/content-figures" component={StyleGuideContentFigures} />
+    <Route path="style-guide/content-images" component={StyleGuideContentImages} />
+    <Route path="style-guide/content-tables" component={StyleGuideContentTables} />
+    <Route path="style-guide/content-typography" component={StyleGuideContentTypography} />
+    <Route path="style-guide/dropdowns" component={StyleGuideDropdowns} />
+    <Route path="style-guide/forms" component={StyleGuideForms} />
+    <Route path="style-guide/input-group" component={StyleGuideInputGroup} />
+    <Route path="style-guide/jumbotron" component={StyleGuideJumbotron} />
+    <Route path="style-guide/layout-grid" component={StyleGuideLayoutGrid} />
+    <Route path="style-guide/layout-media-object" component={StyleGuideLayoutMediaObject} />
+    <Route path="style-guide/list-group" component={StyleGuideListGroup} />
+    <Route path="style-guide/modal" component={StyleGuideModal} />
+    <Route path="style-guide/nav-bar" component={StyleGuideNavBar} />
+    <Route path="style-guide/navs" component={StyleGuideNavs} />
+    <Route path="style-guide/pagination" component={StyleGuidePagination} />
+    <Route path="style-guide/popovers" component={StyleGuidePopovers} />
+    <Route path="style-guide/progress" component={StyleGuideProgress} />
+    <Route path="style-guide/tag" component={StyleGuideTag} />
+    <Route path="style-guide/tooltips" component={StyleGuideTooltips} />
     <Route path="*" component={NotFound} />
   </Router>
 );

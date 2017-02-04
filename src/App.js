@@ -56,7 +56,13 @@ class App extends Component {
           </h2>
           <ul>
             <li>
-              Open the <a href="/style-guide">Style Guide</a> to see primary Bootstrap components.
+              Clone first with: <strong>git clone https://github.com/jmlivingston/react-bootstrap-stylizer</strong>
+            </li>            
+            <li>
+              Install packages and run: <strong>npm install & npm run</strong>
+            </li>
+            <li>
+              Open the <a href="#/style-guide">Style Guide</a> to see primary Bootstrap components.
             </li>
             <li>
               Pick a theme from the dropdown menu. <a href="https://bootswatch.com/4-alpha/">Bootswatch</a> themes use the SASS files provided by <a href="https://bootswatch.com/4-alpha/">Bootswatch</a>. Many of these are great off the shelf, but they're also great starting points.
@@ -69,7 +75,7 @@ class App extends Component {
               For example: try changing the $body-bg variable to something different.
               </li>
             <li>
-              For more details on Bootstrap's customization options, see: <a href="http://v4-alpha.getbootstrap.com/getting-started/options" target="_new">Customization Options</a>. This is not a comprehensive list of all the variables, but should get you started.
+              For more details on Bootstrap's customization options, see: <a href="//v4-alpha.getbootstrap.com/getting-started/options" target="_new">Customization Options</a>. This is not a comprehensive list of all the variables, but should get you started.
             </li>
           </ul>
 
@@ -117,7 +123,7 @@ class App extends Component {
           </div>
 
           <h2 className="bg-success text-white p-2">
-            Shout-outs
+            Credit
           </h2>
           <p>None of this would be possible without these awesome technologies:</p>
           <ul>

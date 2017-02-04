@@ -116,6 +116,7 @@ module.exports = {
           /\.html$/,
           /\.(js|jsx)$/,
           /\.css$/,
+          /\.scss$/,
           /\.json$/,
           /\.svg$/
         ],
@@ -242,7 +243,17 @@ module.exports = {
     // having to parse `index.html`.
     new ManifestPlugin({
       fileName: 'asset-manifest.json'
-    })
+    }),
+    new webpack.ProvidePlugin({
+      $: "jquery",
+      jquery: "jquery",
+      "window.jQuery": "jquery",
+      jQuery:"jquery"
+    }),
+    new webpack.ProvidePlugin({
+      "Tether": 'tether',
+      "window.Tether": "tether"
+    })    
   ],
   // Some libraries import Node modules but don't use them in the browser.
   // Tell Webpack to provide empty mocks for them so importing them works.

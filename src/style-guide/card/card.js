@@ -2,6 +2,7 @@
 import React, { Component } from 'react';
 import htmlContent from './card-markup.html';
 import StyleGuideCode from '../code/code.js';
+import './card.scss';
 
 export default class StyleGuideAlert extends Component {
   render() {

@@ -1,14 +1,8 @@
-# TODO
+# React Bootstrap Stylizer
 
-- Material Design Delta
-  - Badges
-  - Chips?
-  - Slider
-  - Snackbar - Snackbarjs
-  - Toggles
-- Bootstrap Updates
-  - Tooltip
-  - Popover
+## Stylize your React project with Bootsrap SASS like a boss!
+
+## create-react-app Information Below
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 

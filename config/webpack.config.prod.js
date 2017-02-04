@@ -125,6 +125,14 @@ module.exports = {
           name: 'static/media/[name].[hash:8].[ext]'
         }
       },
+      { 
+        test: /\.html$/, 
+        loader: 'html' 
+      },
+      {
+        test: /\.scss$/,
+        loaders: ["style", "css", "sass"]
+      },      
       // Process JS with Babel.
       {
         test: /\.(js|jsx)$/,

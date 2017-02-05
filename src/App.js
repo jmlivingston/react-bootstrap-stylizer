@@ -46,11 +46,8 @@ class App extends Component {
     return (
       <div className="App">
         <div className="App-header container">
-          <div className="">
-            <h2 className="display-4 text-center p-2">React - Bootstrap Stylizer</h2>
-            <h3 className="display-5 text-center p-2">Style your React project with Bootstrap v4.0 SASS like a <strong>boss</strong>!</h3>
-            <p></p>
-          </div>
+          <h2 className="display-4 text-center p-2">React - Bootstrap Stylizer</h2>
+          <h3 className="display-5 text-center p-2">Style your React project with Bootstrap v4.0 SASS like a <strong>boss</strong>!</h3>
           <h2 className="bg-success text-white p-2">
             Build
           </h2>
@@ -65,7 +62,7 @@ class App extends Component {
               Open the <a href="#/style-guide">Style Guide</a> to see primary Bootstrap components.
             </li>
             <li>
-              Pick a theme from the dropdown menu. <a href="https://bootswatch.com/4-alpha/">Bootswatch</a> themes use the SASS files provided by <a href="https://bootswatch.com/4-alpha/">Bootswatch</a>. Many of these are great off the shelf, but they're also great starting points.
+              Pick a theme from the dropdown menu. <a href="//bootswatch.com/4-alpha/">Bootswatch</a> themes use the SASS files provided by <a href="//bootswatch.com/4-alpha/">Bootswatch</a>. Many of these are great off the shelf, but they're also great starting points.
             </li>
             <li>
               Review all components or click on a specific component to make tweaks specifically to that component.
@@ -127,15 +124,15 @@ class App extends Component {
           </h2>
           <p>None of this would be possible without these awesome technologies:</p>
           <ul>
-            <li><a href="https://facebook.github.io/react" target="_new">React</a>
+            <li><a href="//facebook.github.io/react" target="_new">React</a>
             </li>
-            <li><a href="https://github.com/facebookincubator/create-react-app" target="_new">create-react-app</a>
-            </li>
-            <li>
-              <a href="https://v4-alpha.getbootstrap.com/" target="_new">Bootstrap v4.0</a>
+            <li><a href="//github.com/facebookincubator/create-react-app" target="_new">create-react-app</a>
             </li>
             <li>
-              <a href="https://bootswatch.com/4-alpha/" target="_new">Bootswatch</a>
+              <a href="//v4-alpha.getbootstrap.com/" target="_new">Bootstrap v4.0</a>
+            </li>
+            <li>
+              <a href="//bootswatch.com/4-alpha/" target="_new">Bootswatch</a>
             </li>
           </ul>
         </div>

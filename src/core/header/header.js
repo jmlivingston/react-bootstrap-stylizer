@@ -30,7 +30,7 @@ export default class Header extends Component {
                         <button className="navbar-toggler mr-2" type="button" data-toggle="collapse" aria-expanded="false" aria-controls="exCollapsingNavbar2" data-target="#exCollapsingNavbar2" aria-label="Toggle navigation">
                             <span className="navbar-toggler-icon"></span>
                         </button>
-                        <a className="navbar-brand" href="#/">Home</a>
+                        <a className="navbar-brand" href="#/">React Bootstrap Stylizer</a>
                         <div className="collapse navbar-collapse" id="exCollapsingNavbar2" aria-expanded="false">
                             <ul className="nav navbar-nav mr-auto">
                                 <li className="nav-item">
@@ -43,6 +43,11 @@ export default class Header extends Component {
                                     <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                         {themeLinks}
                                     </div>
+                                </li>
+                                <li className="nav-item">
+                                    <a className="nav-link" href="//jmlivingston.github.io/angular-bootstrap-stylizer" target="_new">
+                                        Angular Version
+                                    </a>
                                 </li>
                             </ul>
                             <ul className="nav navbar-nav">

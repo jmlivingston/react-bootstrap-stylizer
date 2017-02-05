@@ -4,19 +4,23 @@ import React, { Component } from 'react';
 export default class Footer extends Component {
     render() {
         return (
-            <footer className="footer bg-primary text-white">
+            <footer className="footer">
                 <div className="container text-center">
-                    <a href="#/" className="text-white">Home</a>
+                    <a href="#/">Home</a>
                     &nbsp;&nbsp;|&nbsp;&nbsp;
-                    <a href="#/style-guide" className="text-white">Style Guide</a>
+                    <a href="#/style-guide">Style Guide</a>
                     &nbsp;&nbsp;|&nbsp;&nbsp;
-                    <a href="//www.johnlivingston.io" className="text-white" target="_new">
+                    <a href="//www.johnlivingston.io" target="_new">
                         johnlivingston.io
-                    </a>   
+                    </a>
                     &nbsp;&nbsp;|&nbsp;&nbsp;
-                    <a href="//github.com/jmlivingston/react-bootstrap-stylizer" target="_new" className="text-white">
-                    GitHub
-                    </a>                                     
+                    <a href="//github.com/jmlivingston/react-bootstrap-stylizer" target="_new">
+                        GitHub
+                    </a>
+                    &nbsp;&nbsp;|&nbsp;&nbsp;
+                    <a href="//jmlivingston.github.io/angular-bootstrap-stylizer" target="_new">
+                        Angular Version
+                    </a>
                 </div>
             </footer>
         );

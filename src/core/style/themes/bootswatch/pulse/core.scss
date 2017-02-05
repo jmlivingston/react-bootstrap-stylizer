@@ -5,4 +5,9 @@
 .navbar {
     @extend .navbar-inverse;
     @extend .bg-primary;
+    a.dropdown-item {
+        &:hover {
+            color: #fff;
+        }
+    }       
 }

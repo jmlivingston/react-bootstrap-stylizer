@@ -56,7 +56,6 @@ export default class StyleGuide extends Component {
                             <button className="btn btn-secondary float-right" onClick={this.expandCollapse}>Expand / Collapse</button>
                         </div>
                     </div>
-                    {/*<input type="text" className="form-control" placeholder="Search..." value={this.state.value} onChange={this.handleChange} />*/}
                     <hr />
                 </div>
                 <div>

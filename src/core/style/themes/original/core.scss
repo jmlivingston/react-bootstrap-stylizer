@@ -1,2 +1,7 @@
 @import "./_variables.scss";
 @import "./_bootstrap.scss";
+
+.navbar {
+    @extend .navbar-inverse;
+    @extend .bg-primary;
+}

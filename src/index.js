@@ -6,7 +6,6 @@ import { hashHistory } from 'react-router';
 import Routes from './routes';
 
 import "../node_modules/tether/dist/css/tether.min.css";
-import "../node_modules/material-design-iconic-font/dist/css/material-design-iconic-font.min.css";
 
 import '../node_modules/jquery/dist/jquery.slim.min.js';
 import '../node_modules/tether/dist/js/tether.min.js';

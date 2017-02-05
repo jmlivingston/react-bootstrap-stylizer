@@ -6,7 +6,7 @@ export default class Theme {
     }
 
     getTheme() {
-        let filteredThemes = this.themes.filter((x) => { return x.path.toString() === localStorage.theme.toString(); });
+        let filteredThemes = this.themes.filter((theme) => { return theme.name === localStorage.theme; });
         if (filteredThemes.length > 0) {
             return filteredThemes[0];
         } else {
@@ -21,23 +21,21 @@ export default class Theme {
     initTheme() {    
         // TODO: Remove ugly hack for hiding root. This is used as page flashes some unformed content.
         document.getElementById('root').style.display = 'none';        
-        var theme = ''
-        if (localStorage.theme) {
-            theme = localStorage.theme;
-        } else {
+        var theme = this.getTheme();
+        if (localStorage.theme !== theme.name) {
             var randomThemeIndex = Math.floor(Math.random() * (this.themes.length - 1 + 1));
-            theme = this.themes[randomThemeIndex].path;
-            localStorage.theme = theme;
+            theme = this.themes[randomThemeIndex];
+            localStorage.theme = theme.name;
         }
         require(`${'./core.scss'}`);
-        require(`${theme}`);
+        require(`${theme.path}`);
         setTimeout(function() {
            document.getElementById('root').style.display = 'block';
         }, 250);
     }
 
     setTheme(theme) {
-        localStorage.theme = theme.path;
+        localStorage.theme = theme.name;
         location.reload();
     }
 

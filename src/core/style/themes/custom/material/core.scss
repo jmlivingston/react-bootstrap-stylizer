@@ -7,6 +7,12 @@
 .navbar {
     @extend .navbar-inverse;
     @extend .bg-primary;
+    a.dropdown-item {        
+        &:hover {
+            background-color: $brand-info;
+            color: #fff;
+        }
+    }     
 }
 
 .btn:not(.btn-link) {
@@ -89,7 +95,6 @@ input[type=radio]+label {
 
 input[type=checkbox]+label:before,
 input[type=radio]+label:before {
-    font-family: 'Material-Design-Iconic-Font';
     display: inline-block;
     color: $brand-info;
     font-size: 20px;
